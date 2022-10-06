@@ -1,0 +1,30 @@
+/* SELECTORES DE ETIQUETAS HTML */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&display=swap');
+
+body {
+ background-image: url(../img/matematicas.jpg);
+}
+
+h3 {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 38px; /* estableco el tamaño del texto */
+}
+
+h4, p, a {
+  font-family: 'Cinzel', serif; /* definiendo las etiquetas HTML (aplicando las fuentes a los objetos seleccionados) */
+}
+
+/* SELECTORES PERSONALIZADOS */
+.contenedor{
+  width: 60%; /* ocupa el tamaño de la ventana total ajustandose al modificarla */
+  background-color: white;
+  margin: 50px auto 50px auto; /* da un margen de pixeles al contenedor */
+  padding: 20px; /* da un margen de pixeles por el interior del contenedor */
+  border: 2px solid yellow; /* coloco un borde con color */
+  text-align: center;
+}
+
+.borde-foto{
+  border: 2px solid black; /* coloca un borde de color rojo al borde de las imagenes */
+  border-radius: 50px;
+}

@@ -1,0 +1,129 @@
+/* SELECTORES DE ETIQUETAS HTML */
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@700&family=Roboto:wght@500&display=swap');
+
+body, h1, ul ,li{
+  margin: 0;
+  padding: 0;
+}
+body {
+ background-color: white;
+}
+
+h1 {
+  font-family: 'Gemunu Libre', sans-serif;
+  font-size: 38px; /* estableco el tamaño del texto */
+}
+
+h4, h2, h5, h3, p{
+  font-family: 'Gemunu Libre', sans-serif; /* definiendo las etiquetas HTML (aplicando las fuentes a los objetos seleccionados) */
+}
+
+
+
+/* SELECTORES PERSONALIZADOS */
+.contenedor{
+  width: 100%; /* ocupa el tamaño de la ventana total ajustandose al modificarla */
+  background-color: white;
+  margin: 0 auto;
+}
+.logo{
+background-color: black;
+text-align: center;
+}
+.menu{
+background-color: black;
+padding: 10px;
+border-bottom: 4px solid gray;
+text-align: center;
+}
+.item-m{
+font-family: 'Gemunu Libre', sans-serif; /* definiendo las etiquetas HTML (aplicando las fuentes a los objetos seleccionados) */
+font-size: 20px;
+display: inline-block;
+padding: 10px;
+
+}
+.item-m a{
+color: white;
+text-decoration: none;
+padding: 10px;
+}
+.item-m a:hover{
+color: black; /* cambia el color de las letras del boton */
+background-color: white; /* cambia el color del fondo del boton */
+text-decoration: none;
+padding: 10px;
+}
+.img-fondo{
+background-image: url(../img/Fondo.jpg);
+height: 600px;
+}
+.titulo{
+background-color: white;
+color: black;
+padding: 10px 10px 10px 80px;
+image-orientation:
+}
+.subtitulo{
+color: white;
+padding: 125px 0 0 80px;
+font-size: 22px;
+}
+.descripcion{
+color: white;
+padding: 0 0 0 80px;
+font-size: 18px;
+}
+.menu2{
+padding: 0 0 150px 65px;
+}
+.item-m2{
+font-family: 'Gemunu Libre', sans-serif;
+font-size: 25px;
+display: inline-block;
+padding: 10px;
+}
+.item-m2 a{
+border: 2px solid white;
+color: white;
+text-decoration: none;
+padding: 10px;
+}
+.item-m2 a:hover{
+color: black; /* cambia el color de las letras del boton */
+background-color: #cccccc;/* cambia el color del fondo del boton */
+text-decoration: none;
+padding: 10px;
+}
+.img-grafica{
+
+}
+
+.cuerpo{
+padding: 0 0 800px 0;
+}
+.rendimiento{
+font-family: 'Gemunu Libre', sans-serif;
+font-size: 40px;
+padding: 100px 0 0 50px;
+text-align: center;
+
+}
+.img-fondo2{
+background-image: url(../img/Fondo2.jpg);
+color: white;
+height: 600px;
+}
+.info{
+font-size: 22px;
+text-align: center;
+}
+
+
+
+.pie{
+color: white;
+padding: 20px;
+background-color: black;
+text-align: center;
+}

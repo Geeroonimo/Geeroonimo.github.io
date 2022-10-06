@@ -1,0 +1,29 @@
+
+/* Importación de las tipografias al index principal */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter&display=swap');
+
+
+/* SELECTORES DE ETIQUETAS HTML */ /* MODIFICAR LAS ETIQUETAS DEL HTML */
+
+body {
+  font-family: 'Bitter', serif;
+}
+
+h1 {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  background-color: black;
+  font-size: 34px;
+  padding: 10px;
+}
+ h2 {
+   color: white;
+   font-family: 'Bebas Neue', cursive;
+   background-color: black;
+   font-size: 28px;
+   padding: 10px;
+ }
+
+ img{
+   font-size: 40px;
+ }
