@@ -26,9 +26,11 @@ h4, h2, h5, h3, p{
   background-color: white;
   margin: 0 auto;
 }
-.logo{
+.zonalogo{
+display: flex;
+justify-content: center;
 background-color: black;
-text-align: center;
+
 }
 .menu{
 background-color: black;
@@ -54,28 +56,31 @@ background-color: white; /* cambia el color del fondo del boton */
 text-decoration: none;
 padding: 10px;
 }
-.img-fondo{
-background-image: url(../img/Fondo.jpg);
-height: 600px;
-}
 .titulo{
 background-color: white;
 color: black;
 padding: 10px 10px 10px 80px;
-image-orientation:
+}
+.img-fondo{
+display: flex;
+background-image: url(../img/Fondo.jpg);
+height: 900px;
+}
+.zona0{
+padding: 50px 0 0 0;
 }
 .subtitulo{
 color: white;
-padding: 125px 0 0 80px;
+padding: 70px 0 0 80px;
 font-size: 22px;
 }
 .descripcion{
+padding:  0 0 0 80px;
 color: white;
-padding: 0 0 0 80px;
 font-size: 18px;
 }
 .menu2{
-padding: 0 0 150px 65px;
+padding:  0 0 0 70px;
 }
 .item-m2{
 font-family: 'Gemunu Libre', sans-serif;
@@ -95,28 +100,123 @@ background-color: #cccccc;/* cambia el color del fondo del boton */
 text-decoration: none;
 padding: 10px;
 }
+.video{
+padding: 10px 0 0 80px;
+}
+.conjunto{
+display: flex;
+}
+
 .img-grafica{
-
+padding:  180px 0 0 70px;
 }
 
-.cuerpo{
-padding: 0 0 800px 0;
-}
 .rendimiento{
 font-family: 'Gemunu Libre', sans-serif;
 font-size: 40px;
-padding: 100px 0 0 50px;
+padding: 120px 0 0 50px;
 text-align: center;
 
 }
 .img-fondo2{
 background-image: url(../img/Fondo2.jpg);
 color: white;
-height: 600px;
+height: 1080px;
 }
 .info{
 font-size: 22px;
+padding: 20px 0 0 0;
 text-align: center;
+}
+
+.bloques{
+display: flex;
+}
+
+.bloque1{
+padding: 200px 0 0 0;
+}
+.texto1{
+width: 200px;
+padding: 35px 0 0 200px;
+}
+.textosub1{
+padding: 0 0 0 145px;
+}
+
+.bloque2{
+padding: 200px 0 0 0;
+}
+.texto2{
+padding: 35px 0 0 265px;
+}
+.textosub2{
+padding: 0 0 0 265px;
+}
+
+.bloque3{
+padding: 200px 0 0 0;
+}
+.texto3{
+padding: 35px 0 0 350px;
+}
+.textosub3{
+padding: 0 0 0 335px;
+}
+
+.bloque4{
+padding: 200px 0 0 0;
+}
+.texto4{
+padding: 35px 0 0 350px;
+}
+.textosub4{
+padding: 0 0 0 315px;
+}
+
+.bloques2{
+display: flex;
+}
+
+.bloque5{
+padding: 135px 0 0 0;
+}
+.texto5{
+width: 200px;
+padding: 35px 0 0 190px;
+}
+.textosub5{
+padding: 0 0 0 185px;
+}
+
+.bloque6{
+padding: 135px 0 0 0;
+}
+.texto6{
+padding: 35px 0 0 275px;
+}
+.textosub6{
+padding: 0 0 0 300px;
+}
+
+.bloque7{
+padding: 135px 0 0 0;
+}
+.texto7{
+padding: 35px 0 0 340px;
+}
+.textosub7{
+padding: 0 0 0 265px;
+}
+
+.bloque8{
+padding: 135px 0 0 0;
+}
+.texto8{
+padding: 35px 0 0 275px;
+}
+.textosub8{
+padding: 0 0 0 300px;
 }
 
 
