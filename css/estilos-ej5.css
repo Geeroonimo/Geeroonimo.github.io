@@ -124,8 +124,8 @@ color: white;
 height: 1080px;
 }
 .info{
-font-size: 22px;
-padding: 20px 0 0 0;
+font-size: 24px;
+padding: 0 0 0 0;
 text-align: center;
 }
 
@@ -134,7 +134,7 @@ display: flex;
 }
 
 .bloque1{
-padding: 200px 0 0 0;
+padding: 90px 0 0 0;
 }
 .texto1{
 width: 200px;
@@ -145,7 +145,7 @@ padding: 0 0 0 145px;
 }
 
 .bloque2{
-padding: 200px 0 0 0;
+padding: 90px 0 0 0;
 }
 .texto2{
 padding: 35px 0 0 265px;
@@ -155,7 +155,7 @@ padding: 0 0 0 265px;
 }
 
 .bloque3{
-padding: 200px 0 0 0;
+padding: 90px 0 0 0;
 }
 .texto3{
 padding: 35px 0 0 350px;
@@ -165,7 +165,7 @@ padding: 0 0 0 335px;
 }
 
 .bloque4{
-padding: 200px 0 0 0;
+padding: 90px 0 0 0;
 }
 .texto4{
 padding: 35px 0 0 350px;
